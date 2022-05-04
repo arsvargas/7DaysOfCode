@@ -75,3 +75,28 @@ button#botaocadastrar {
 	max-width: 50%;
 	line-height: 1,5rem;
 }
+
+.metricas {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.conteudo-metrica {
+	margin: 3rem 3rem;
+}
+
+.metricas h1 {
+	font-size: 60px;
+	color: var(--main-color);
+}
+
+.metricas h6 {
+	font-size: 18px;
+	color: var(--text-color2);
+}
+
+.metricas p {
+	font-size: 16px;
+	color: var(--text-color);
+}
