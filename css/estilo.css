@@ -127,3 +127,40 @@ button#botaocadastrar {
 	margin: 1rem;
 	margin-bottom: 3rem;
 }
+
+.vagas {
+	display: flex;
+	flex-direction: column;
+	width: 768px;
+	margin: 0 auto;
+}
+
+.cargo-vaga {
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--text-color2);
+	padding: 1rem;
+}
+
+.borda-vaga {
+	border: 1px solid #eaecf0;
+	border-radius: 16px;
+	padding: 2rem;
+	margin: 1rem;
+}
+
+.titulo-vaga {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--text-color2);
+}
+
+.informacoes {
+	color: var(--text-color);
+	font-size: 16px;
+	padding-top: 2rem;
+}
+
+.informacoes span {
+	padding-right: 2rem;
+}
