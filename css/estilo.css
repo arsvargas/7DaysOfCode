@@ -164,3 +164,46 @@ button#botaocadastrar {
 .informacoes span {
 	padding-right: 2rem;
 }
+
+.depoimentos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	margin: 0 auto;
+	background: rgba(196, 25, 25, 0.03);
+	width: 1216px;
+	height: 404px;
+	border-radius: 16px;
+}
+
+.depoimentos img {
+	width: 56px;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+}
+
+.depoimentos h5{
+	color: var(--main-color);
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+.depoimentos p {
+	color: var(--text-color2);
+	font-size: 36px;
+	font-weight: 500;
+	padding: 2rem;
+	text-align: center;
+}
+
+#nome {
+	color: var(--text-color2);
+	margin: 0 auto;
+	padding: 1rem;
+	font-weight: 500;
+}
+
+#cargo {
+	color: var(--text-color);
+	margin: 0 auto;
+}
