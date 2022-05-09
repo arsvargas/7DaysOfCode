@@ -199,7 +199,7 @@ button#botaocadastrar {
 #nome {
 	color: var(--text-color2);
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 0.5rem;
 	font-weight: 500;
 }
 
@@ -207,3 +207,39 @@ button#botaocadastrar {
 	color: var(--text-color);
 	margin: 0 auto;
 }
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background: #F9FAFB;
+	padding-top: 5rem;
+	margin-top: 6rem;
+	align-items: center;
+}
+ footer h1 {
+ 	text-align: center;
+ 	font-size: 36px;
+ 	font-weight: 600;
+ }
+
+ footer p {
+ 	color: var(--text-color);
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	padding: 2rem;
+ }
+
+ footer input {
+	padding: 0.8rem 1rem;
+	border-radius: 0.5rem;
+	width: 360px;
+	border: 1px solid #D0D5DD;
+	margin: 1rem;
+ }
+
+ #copyright {
+ 	color: #98A2B3;
+ 	font-size: 16px;
+
+ }
